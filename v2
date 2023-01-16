@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+  <style>
+body {
+  background-image: url('https://blog.cloudflare.com/content/images/logs.jpg.scaled500.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <center><h1 style="color:gold;">Wood We Really</h1></center>
+    
+    <center><h4 style="color:gold;">For All Your Natural Wood Furniture Needs!</h4></center>
+
+    <div>
+      <h3 style="color:gold;">Armoire</h3>
+      
+      <center><img src="https://secure.img1-fg.wfcdn.com/im/48589218/resize-h445%5Ecompr-r85/1654/165435495/Greenport+Solid+Wood+Armoire.jpg"
+      style="width:500px;height:500px;"/></center>
+      <h4 style="color:gold;">Description</h4>
+      <h5 style="color:gold;">This coastal-looking armoire has what it takes to give your bedroom that refined touch. Its modernized traditional style results in a timeless design, while adding lots of storage with 2 large Louvered doors and two spacious 8 1/4” deep drawers. Made of 100% solid pine wood, this customizable wardrobe features a sturdy construction that can last for years.</h5>
+    
+      <h4 style="color:gold;">$969.00</h4>
+      <button onclick="addtocartWhenClicked()">Add to cart</button>
+  <script>
+    function addtocartWhenClicked(){
+      alert("Item added to cart");
+    }
+    
+    </script>
+    </div>
+    <br>
+    <div>
+      <h3 style="color:gold;">Dresser</h3>
+      
+      <center><img src="https://secure.img1-fg.wfcdn.com/im/06041097/resize-h800-w800%5Ecompr-r85/1998/199821754/Matthes+2+-+Drawer+Dresser.jpg"style="width:500px;height:500px;"/></center>
+      <h4 style="color:gold;">Description</h4>
+      <h5 style="color:gold;">This 2-drawer combo dresser provides you with a few extra spots to tuck away clothes and linens while giving your bedroom a lodge-inspired look. It's made from solid and engineered wood, and it rests on four slightly tapered corner legs. This dresser showcases a diagonal front panel design along with a noticeable wood grain and a rustic brown finish. Two top drawers offer storage for various odds and ends, while the double doors beneath them open to reveal plenty of interior shelf space. For extra safety, we recommend getting a wall anchor (sold separately). No assembly required.</h5>
+      <h4 style="color:gold;">$699.00</h4>
+      <button onclick="addtocartWhenClicked()">Add to cart</button>
+  <script>
+    function addtocartWhenClicked(){
+      alert("Item added to cart");
+    }
+    </script>
+    </div>
+    
+    <div>
+      <br>
+      <h3 style="color:gold;">End Table</h3>
+      
+      <center><img src="https://secure.img1-fg.wfcdn.com/im/84443046/resize-h800-w800%5Ecompr-r85/1926/192698910/Ramon+18%27%27+Tall+Solid+Wood+Drum+End+Table.jpg"/style="width:500px;height:500px;"></center>
+      <h4 style="color:gold;" >Description</h4>
+      <h5 style="color:gold;">Rustic charm meets modern flair in this one-of-a-kind end table! Featuring a solid top supported by staggered blocks, all handcrafted from plantation teak. This whimsical design brings evocative charm to your living space! Overflowing with natural beauty fit for modern spaces, the drum shape of this table breaks up linear spaces. It makes the perfect perch for books of art and vases brimming with blooming buds. Variations due to natural materials and processes mean each piece is as unique as your style. Pair with a matching coffee table and a comfy couch for a living room ready and waiting to entertain friends and family.</h5>
+      <h4 style="color:gold;">$150.00</h4>
+      <button onclick="addtocartWhenClicked()">Add to cart</button>
+  <script>
+    function addtocartWhenClicked(){
+      alert("Item added to cart");
+    }
+    </script>
+    </div>
+    <center><h4 style="color:gold;">7990 N. Academy Blvd. Colorado Springs, CO</h4></center>
+    <center><h4 style="color:gold;">(719)598-4646</h4></center>
+    <form action="/action_page.php">
+  <center><h4 style="color:gold;"><label for="email">Subscribe to us:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Submit">
+</form>
+
+  </body>
+</html>     
